@@ -1,0 +1,78 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url(http://bit.ly/2gPLxZ4);
+}
+h1 {
+  text-align: center;
+  font-family: Monoton;
+  font-size: 80px;
+}
+h2 {
+  text-align: center;
+  font-family: Hind Vadodara;
+}
+h3 {
+  font-size: 30px;
+}
+#image {
+  width: 100%;
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#info {
+  font-size: 18px;
+  color: white;
+}
+.white-font {
+  color: white;
+  position: relative;
+  left: 100px;
+}
+.aqua-font {
+  color: rgba(23, 178, 216, 0.664);
+}
+.video-font {
+  color: aqua;
+}
+#video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#tour-dates {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(94, 30, 85);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+a {
+  color: rgb(235, 241, 243);
+}
+a:hover {
+  color: blue;
+}
